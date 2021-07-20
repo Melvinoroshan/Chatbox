@@ -1,3 +1,2 @@
-python-telegram-bot
 adafruit-io
-Clients
+python-telegram-bot==13.0
