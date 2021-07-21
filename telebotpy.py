@@ -3,7 +3,7 @@ from telegram.ext import Updater,MessageHandler,Filters  #importing telegram lib
 import os                                                #import os to get hidden keys
 import random
 #get feed key of adafruit feed
-feed_key = os.getenv('aio_DPUq46P7mIwW2L4DLC8cYOZcrDRz') 
+feed_key = os.getenv('aio_MddY69YcIHZUDEd0WSEUbHbFE7yn') 
 #creating a client
 aio = Client('malvino', feed_key)  
 
