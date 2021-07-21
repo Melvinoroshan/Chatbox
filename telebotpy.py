@@ -24,7 +24,7 @@ def ledon(bot,update):
   animation_url = 'https://media.baamboozle.com/uploads/images/68811/1618179100_34871_gif-url.gif'
   bot.message.reply_text("Done,lights turned on!✌")
   update.bot.sendAnimation(chat_id=chat_id,animation=animation_url,duration=2)
-  aio.send('led', 1)
+  aio.send('light', 1)
 
 #to make the light OFF
 def ledoff(bot,update):
@@ -32,7 +32,7 @@ def ledoff(bot,update):
   path='https://labblog.uofmhealth.org/sites/lab/files/2018-11/michigan-med-l-ocd-study.gif'
   bot.message.reply_text("Done,lights turned off!👍")
   update.bot.sendAnimation(chat_id=chat_id,animation=path)
-  aio.send('led', 0)
+  aio.send('light', 0)
 
 #make fan ON
 def fanon(bot,update):
